@@ -117,7 +117,7 @@ int friends = 10;
 // Console.WriteLine("The hypotenuse is: "+ hypotenuse);
 
 // Aula 11
-String fullName = "Bro Code";
+// String fullName = "Bro Code";
 // fullName = fullName.ToUpper(); // all the string becomes upper case
 // fullName = fullName.ToLower(); // all the string becomes lower case
 
@@ -133,3 +133,75 @@ String fullName = "Bro Code";
 // Console.WriteLine(firstName);
 // String lastName = fullName.Substring(4,4);
 // Console.WriteLine(lastName);
+
+// Aula 12
+// Console.WriteLine("Enter your age: ");
+// int age = Convert.ToInt32(Console.ReadLine());
+// if (age > 100)
+// {
+//     Console.WriteLine("You are too old to sign up");
+//
+// }
+//
+// else if (age >= 18)
+// {
+//     Console.WriteLine("You are now signed up");
+//
+// }
+//
+// else if (age <= 0)
+// {
+//     Console.WriteLine("You have not been born yet!");
+// }
+//
+// else
+// {
+//     Console.WriteLine("You dont't signed up");
+// }
+// Console.WriteLine("Please, enter your name");
+// String name = Console.ReadLine();
+// if (name != "")
+// {
+//     Console.WriteLine("Hello, "+ name);
+//
+// }
+// else
+// {
+//     Console.WriteLine("You did not write anything");
+//
+// }
+
+// Aula 13
+// Console.WriteLine("What is It day today? ");
+// String day = Console.ReadLine().ToLower();
+//
+// switch (day)
+// {
+//     case "sunday":
+//         Console.WriteLine("It's sunday");
+//         break;
+//     case "monday":
+//         Console.WriteLine("It's monday");
+//         break;
+//     case "tuesday":
+//         Console.WriteLine("It's tuesday");
+//         break;
+//     case "wednesday":
+//         Console.WriteLine("It's wednesday");
+//         break;
+//     case "thursday":
+//         Console.WriteLine("It's thursday");
+//         break;
+//     case "friday":
+//         Console.WriteLine("It's friday");
+//         break;
+//     case "saturday":
+//         Console.WriteLine("It's saturday");
+//         break;
+//     default:
+//         Console.WriteLine(day + "It's not a day");
+//         break;
+// }
+
+
+
