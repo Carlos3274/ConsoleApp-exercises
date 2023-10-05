@@ -105,3 +105,31 @@ int friends = 10;
 // Console.WriteLine(num);
 
 // Aula 10
+// Console.WriteLine("Hypotenuse calculator");
+//
+// Console.WriteLine("Enter the leg A:");
+// int legA = Convert.ToInt32(Console.ReadLine());
+//
+// Console.WriteLine("Enter the leg B:");
+// int legB = Convert.ToInt32(Console.ReadLine());
+//
+// double hypotenuse = Math.Sqrt(Math.Pow(legA, 2) + Math.Pow(legB, 2));
+// Console.WriteLine("The hypotenuse is: "+ hypotenuse);
+
+// Aula 11
+String fullName = "Bro Code";
+// fullName = fullName.ToUpper(); // all the string becomes upper case
+// fullName = fullName.ToLower(); // all the string becomes lower case
+
+// String phoneNumber = "123-456-7890";
+// phoneNumber = phoneNumber.Replace("-", "");
+// Console.WriteLine(phoneNumber);
+
+// String userName = fullName.Insert(0, "@");
+// Console.WriteLine(userName);
+// Console.WriteLine(fullName.Length);
+
+// String firstName = fullName.Substring(0,3 );
+// Console.WriteLine(firstName);
+// String lastName = fullName.Substring(4,4);
+// Console.WriteLine(lastName);
